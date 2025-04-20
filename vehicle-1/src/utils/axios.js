@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/", // Adjust this if deployed
+  baseURL: "https://vehicle-bvq2.onrender.com/", // Adjust this if deployed
   
 });
 
