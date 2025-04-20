@@ -11,7 +11,7 @@ const url = process.env.MONGO_URI;
 
 // Middleware
 app.use(cors({
-  origin: "https://vehicle-n6fykdptf-sushantakumarsahoos-projects.vercel.app", // frontend URL
+  origin: "https://vehicle-pi.vercel.app", // frontend URL
   credentials: true
 }));
 app.use(bodyParser.json());
